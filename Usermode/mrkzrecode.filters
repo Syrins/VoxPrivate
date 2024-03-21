@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{2de361b9-d76d-41d7-be65-a2a4f9bfb3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\ImGui">
+      <UniqueIdentifier>{8bc85a01-662c-4e2c-89bb-47bfb0844b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{d9fc5620-6597-400f-a3ff-2dd8c34e290b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imports">
+      <UniqueIdentifier>{cb579987-79b4-4ffb-92a6-20697dfe9fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{e9bc1b57-4c32-421c-a7cb-96bd23f18022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Aimbot">
+      <UniqueIdentifier>{f14ca75c-427a-47d1-86dd-274e9082262c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mapper">
+      <UniqueIdentifier>{bd01a7e5-5c7c-464e-86f5-9f210b776c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mapper\binary">
+      <UniqueIdentifier>{3c381dbe-1a73-4f40-9456-ef24a3b678e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mapper\exploit">
+      <UniqueIdentifier>{995557a1-732c-4b80-be8e-791fbefe8dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mapper\hde">
+      <UniqueIdentifier>{2ee562ca-624b-4f3e-8fe0-a1b13956de21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mapper\utils">
+      <UniqueIdentifier>{319aebd0-15b8-4017-b2e4-f01630febd95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{48ae4b1c-e4b6-4f97-9d0d-86b0c66e916e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{8e82bb04-a612-4864-828d-0b727d3fdd68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\Game Functions">
+      <UniqueIdentifier>{1e5443dc-d09d-4ff3-aca1-d05835bb58fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imports\protection">
+      <UniqueIdentifier>{6b6625e4-d63a-43f4-b8ae-b689db5ef03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\includes">
+      <UniqueIdentifier>{cf2a52cb-f85d-4322-9a09-7ea4acab5b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay\overlay includes">
+      <UniqueIdentifier>{6c894890-653e-4700-a6fa-790a20dbd3ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Framework\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="grdv\exploit\pe.cpp">
+      <Filter>Mapper\exploit</Filter>
+    </ClCompile>
+    <ClCompile Include="grdv\exploit\swind2.cpp">
+      <Filter>Mapper\exploit</Filter>
+    </ClCompile>
+    <ClCompile Include="grdv\hde\hde64.c">
+      <Filter>Mapper\hde</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk.h">
+      <Filter>Dependencies\Game Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.hpp">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Dependencies\Game Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="imports.h">
+      <Filter>Imports</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="ue.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="loop.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Dependencies\Game Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Framework\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="grdv\binary\bytes.h">
+      <Filter>Mapper\binary</Filter>
+    </ClInclude>
+    <ClInclude Include="grdv\binary\dropper.h">
+      <Filter>Mapper\binary</Filter>
+    </ClInclude>
+    <ClInclude Include="grdv\hde\hde64.h">
+      <Filter>Mapper\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="grdv\hde\table64.h">
+      <Filter>Mapper\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="grdv\utils\ntdll.h">
+      <Filter>Mapper\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="grdv\global.h">
+      <Filter>Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="grdv\resource.h">
+      <Filter>Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>Game\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="SkCrypt.h">
+      <Filter>Imports\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="spoofer.h">
+      <Filter>Imports\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="xorst.h">
+      <Filter>Imports\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Imports</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Dependencies\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Dependencies\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="keybind.h">
+      <Filter>Overlay\overlay includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ImGui\d3d11.lib">
+      <Filter>Framework\ImGui</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

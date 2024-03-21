@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{d9fc5620-6597-400f-a3ff-2dd8c34e290b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\Game Functions">
+      <UniqueIdentifier>{1e5443dc-d09d-4ff3-aca1-d05835bb58fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\includes">
+      <UniqueIdentifier>{cf2a52cb-f85d-4322-9a09-7ea4acab5b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Visuals">
+      <UniqueIdentifier>{91344263-6c86-4365-b0e6-4301d26be56a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE">
+      <UniqueIdentifier>{c29a340f-f93d-415e-a4b8-5d4c358aa683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Aimbot">
+      <UniqueIdentifier>{4c62c558-f6e5-43c7-a9df-62a57205e3a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver 2">
+      <UniqueIdentifier>{bd01a7e5-5c7c-464e-86f5-9f210b776c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver 2\binary">
+      <UniqueIdentifier>{3c381dbe-1a73-4f40-9456-ef24a3b678e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver 2\exploit">
+      <UniqueIdentifier>{995557a1-732c-4b80-be8e-791fbefe8dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver 2\hde">
+      <UniqueIdentifier>{2ee562ca-624b-4f3e-8fe0-a1b13956de21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver 2\utils">
+      <UniqueIdentifier>{319aebd0-15b8-4017-b2e4-f01630febd95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exploit">
+      <UniqueIdentifier>{cb579987-79b4-4ffb-92a6-20697dfe9fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exploit\protection">
+      <UniqueIdentifier>{6b6625e4-d63a-43f4-b8ae-b689db5ef03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{2de361b9-d76d-41d7-be65-a2a4f9bfb3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGui\ImGui">
+      <UniqueIdentifier>{8bc85a01-662c-4e2c-89bb-47bfb0844b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{f9f859bd-6452-4dcd-bc10-919c457483d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Aimbot\KeyBind">
+      <UniqueIdentifier>{ebbcff39-91dd-4ce4-8363-234674428ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bypass EAC">
+      <UniqueIdentifier>{48ae4b1c-e4b6-4f97-9d0d-86b0c66e916e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapperDrv">
+      <UniqueIdentifier>{82222fa3-435f-43fb-94ec-a8c413c0eb83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\ImGui Custom">
+      <UniqueIdentifier>{9fb3f149-c1b6-45a8-a0b8-7ec4bd4e1792}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx11.cpp">
+      <Filter>ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>ImGui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="grdv\exploit\pe.cpp">
+      <Filter>driver 2\exploit</Filter>
+    </ClCompile>
+    <ClCompile Include="grdv\exploit\swind2.cpp">
+      <Filter>driver 2\exploit</Filter>
+    </ClCompile>
+    <ClCompile Include="grdv\hde\hde64.c">
+      <Filter>driver 2\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="Custom Console\Colors\colorout.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdk.h">
+      <Filter>Dependencies\Game Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.hpp">
+      <Filter>Bypass EAC</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Dependencies\Game Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="imports.h">
+      <Filter>Exploit</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Dependencies\Game Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx11.h">
+      <Filter>ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>ImGui\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="grdv\binary\bytes.h">
+      <Filter>driver 2\binary</Filter>
+    </ClInclude>
+    <ClInclude Include="grdv\binary\dropper.h">
+      <Filter>driver 2\binary</Filter>
+    </ClInclude>
+    <ClInclude Include="grdv\hde\hde64.h">
+      <Filter>driver 2\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="grdv\hde\table64.h">
+      <Filter>driver 2\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="grdv\utils\ntdll.h">
+      <Filter>driver 2\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="grdv\global.h">
+      <Filter>driver 2</Filter>
+    </ClInclude>
+    <ClInclude Include="grdv\resource.h">
+      <Filter>driver 2</Filter>
+    </ClInclude>
+    <ClInclude Include="SkCrypt.h">
+      <Filter>Exploit\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="spoofer.h">
+      <Filter>Exploit\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="xorst.h">
+      <Filter>Exploit\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Exploit</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Dependencies\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Dependencies\includes</Filter>
+    </ClInclude>
+    <ClInclude Include="visuals.h">
+      <Filter>Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="ue.h">
+      <Filter>UE</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="keybind.h">
+      <Filter>Aimbot\KeyBind</Filter>
+    </ClInclude>
+    <ClInclude Include="API\auth.hpp" />
+    <ClInclude Include="API\json.hpp" />
+    <ClInclude Include="API\utils.hpp" />
+    <ClInclude Include="Custom Console\Colors\colorize.h" />
+    <ClInclude Include="Custom Console\Colors\colorout.h" />
+    <ClInclude Include="Custom Console\Mics\font.h" />
+    <ClInclude Include="Custom Console\Mics\misc.h" />
+    <ClInclude Include="Includes1.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Security\AntiDebug.hpp" />
+    <ClInclude Include="Security\Security.h" />
+    <ClInclude Include="LoadDrv.h">
+      <Filter>MapperDrv</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_custom.hpp">
+      <Filter>Menu\ImGui Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_helper.hpp">
+      <Filter>Menu\ImGui Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="StringH.hpp">
+      <Filter>Menu\ImGui Custom</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorH.hpp">
+      <Filter>Menu\ImGui Custom</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ImGui\d3d11.lib">
+      <Filter>ImGui\ImGui</Filter>
+    </Library>
+    <Library Include="API\libcurl.lib" />
+    <Library Include="API\library_x64.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VoxPrivate.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\mstile-310x310.ico" />
+  </ItemGroup>
+</Project>
